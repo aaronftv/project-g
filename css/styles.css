@@ -1,4 +1,5 @@
-body{
+body
+{    
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
     color: #222;
@@ -14,7 +15,11 @@ ul
     margin: 0 auto;
     width: 70%;
 }
-.post 
+.body
+{
+    background-color: #ddd;
+}
+.post, .contact
 {
     padding: 1em;
     border: 1px solid #DDD;
@@ -24,12 +29,19 @@ ul
 {
     text-align: left;
     font-size:x-large;
-    background: #33A;
+    background: rgb(78, 24, 165);
     box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
     color:white;
     font-weight: bold;
     margin: 0;
     padding: 0.5em;
+}
+
+#header #logo
+{
+    width: 44px;
+    height: 44px;
+    vertical-align: middle;
 }
 
 #header #tagline
