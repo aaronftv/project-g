@@ -24,7 +24,13 @@ ul
     padding: 1em;
     border: 1px solid #CCC;
 }
-
+.footer
+{
+    text-align: center;
+    padding: 1em;
+    background: #333;
+    color:#fff;
+}
 #header 
 {
     text-align: left;
