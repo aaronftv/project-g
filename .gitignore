@@ -1,2 +1,8 @@
-# Comment
+# Ignore Images
+
 *.jpg
+*.png
+
+# Except png icons
+
+!*icon.png
