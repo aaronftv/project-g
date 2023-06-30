@@ -75,10 +75,10 @@ ul
     }
 }
 
-@media only screen and (max-width: 412px)
+@media only screen and (max-width: 480px)
 {
     .post-image img
     {
-        width: 80%;
+        width: 100%;
     }
 }
